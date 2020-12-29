@@ -2,8 +2,8 @@
   "resources": [
     {"id":{"name":"rm_checkpoint","path":"rooms/rm_checkpoint/rm_checkpoint.yy",},"order":2,},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":0,},
-    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
-    {"id":{"name":"obj_wall_slant","path":"objects/obj_wall_slant/obj_wall_slant.yy",},"order":2,},
+    {"id":{"name":"obj_wall_slant","path":"objects/obj_wall_slant/obj_wall_slant.yy",},"order":1,},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":2,},
     {"id":{"name":"spr_tile_mono","path":"sprites/spr_tile_mono/spr_tile_mono.yy",},"order":1,},
     {"id":{"name":"spr_wall_slant","path":"sprites/spr_wall_slant/spr_wall_slant.yy",},"order":5,},
     {"id":{"name":"obj_wall_parent","path":"objects/obj_wall_parent/obj_wall_parent.yy",},"order":0,},
