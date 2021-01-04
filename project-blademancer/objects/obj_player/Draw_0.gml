@@ -1,6 +1,6 @@
 // face last moved direction; CANNOT ACCOUNT FOR 0!
-if(hspeed > 0){image_xscale = 1;}
-if(hspeed < 0){image_xscale = -1;}
+//if(hspeed > 0){image_xscale = 1;}
+//if(hspeed < 0){image_xscale = -1;}
 
 
 // movement effects
@@ -12,5 +12,5 @@ else{draw_self();}/// @description description
 
 //temp
 draw_set_halign(fa_center)
-draw_text(x,y-40,string(hspeed)+", "+string(vspeed));
+draw_text(x,y-40,movespeed);
 draw_set_halign(fa_left)

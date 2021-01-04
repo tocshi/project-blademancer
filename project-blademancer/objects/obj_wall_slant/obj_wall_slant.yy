@@ -3,7 +3,7 @@
     "name": "spr_wall_slant",
     "path": "sprites/spr_wall_slant/spr_wall_slant.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

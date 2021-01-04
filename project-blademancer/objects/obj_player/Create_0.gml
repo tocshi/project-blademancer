@@ -6,7 +6,9 @@ view_set_visible(view_current,true);
 
 depth = depth-1;
 
-movespeed = 4;
+movespeed = 0;
+maxmovespeed = 4;
+moveacc = 0.25;
+movedir = 0;
 canMove = true;
 isMoving = false;
-moveacc = 0.25;
