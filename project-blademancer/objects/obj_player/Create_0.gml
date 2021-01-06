@@ -12,3 +12,9 @@ moveacc = 0.25;
 movedir = 0;
 canMove = true;
 isMoving = false;
+
+stats = {
+	hp : 3,
+	atk : 10,
+	inventory : [] // or whatever it is that we want to call the weapons that the player has attracted towards them
+};

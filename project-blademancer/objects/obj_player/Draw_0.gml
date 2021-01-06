@@ -14,3 +14,18 @@ else{draw_self();}/// @description description
 draw_set_halign(fa_center)
 draw_text(x,y-40,movespeed);
 draw_set_halign(fa_left)
+
+// draw HP
+var hpleft = stats.hp;
+var xx = 0;
+var yy = 0;
+for(var i = 0; i < 3; ++i){
+	if(hpleft > 0){
+		draw_sprite(spr_playerhp,1,xx,yy);
+	}
+	else{
+		draw_sprite(spr_playerhp,0,xx,yy);
+	}
+	hpleft--;
+	xx += sprite_get_width(spr_playerhp);
+}
